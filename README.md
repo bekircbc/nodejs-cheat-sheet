@@ -14,3 +14,14 @@
 
       const str = JSON.stringify(data);
       const obj = JSON.parse(str);
+
+## Nodemon
+
+        npm install -D nodemon
+
+        # package.json
+        "scripts": {
+           "dev": "nodemon index.js"
+        }
+
+        npm run dev
